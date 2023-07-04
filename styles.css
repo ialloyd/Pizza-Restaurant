@@ -1,0 +1,92 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+
+    background-color: black;
+    color: white;
+}
+
+.fa {
+
+    padding: 10px;
+    color: white;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.nav-link {
+
+    color: white;
+}
+
+.header {
+
+    position: fixed;
+    top: 0;
+}
+
+main {
+
+    background-image: url("pizza1 1.jpg");
+    background-size: cover;
+    height: 700px;
+    filter: brightness(0.7);
+
+
+}
+
+main .container {
+
+    padding-top: 100px;
+    width: 75%;
+    margin-left: 80px;
+}
+
+main .container p {
+
+    margin-top: 50px;
+    width: 50%;
+    font-size: large;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+main .container h1 {
+
+    font-weight: bolder;
+    width: 50%;
+    letter-spacing: 5px;
+    font-size: 60px;
+    padding-bottom: 50px;
+    border-bottom: 10px solid#F24C4C;
+    color: white;
+
+}
+
+.strip {
+
+    background-color: #F24C4C;
+    margin-inline: 35%;
+}
+
+#about-us p {
+
+    border-top: 4px solid#F24C4C;
+    padding: 10px;
+
+}
+
+#menu h4 {
+
+    color: #F2C94C;
+
+}
