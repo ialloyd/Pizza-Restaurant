@@ -48,7 +48,7 @@ main .container {
     padding-top: 100px;
     width: 75%;
     margin-left: 80px;
-    
+
 }
 
 main .container p {
@@ -57,8 +57,6 @@ main .container p {
     width: 50%;
     font-size: large;
     color: white;
-   
-
 }
 
 main .container h1 {
@@ -92,80 +90,81 @@ main .container h1 {
 
 }
 
-.grid-container{
-    display:grid;
+.grid-container {
+    display: grid;
     grid-template-columns: auto auto;
-    gap:5px;
+    gap: 5px;
 }
 
-.image-gallery{
+.image-gallery {
 
-    display:flex;
+    display: flex;
     justify-content: center;
-    gap:10px;
+    gap: 10px;
 }
 
-.item{
+.item {
 
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    gap:10px;
+    justify-content: center;
+    gap: 10px;
 
 }
-.address{
+
+.address {
 
     display: flex;
     align-items: center;
     font-size: 14px;
 }
 
-.contact{
+.contact {
 
     display: flex;
     align-items: center;
     font-size: 14px;
 }
 
-.address img{
+.address img {
 
-    width:50%;
-}
-.contact img{
-
-    width:50%;
+    width: 50%;
 }
 
-.foot .container{
+.contact img {
+
+    width: 50%;
+}
+
+.foot .container {
 
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.foot img{
+.foot img {
 
-    width:50%;
+    width: 50%;
 }
 
-.icon img{
+.icon img {
 
-    width:50%;
+    width: 50%;
 }
 
-.foot-contact img{
+.foot-contact img {
 
-    width:50%;
+    width: 50%;
 }
 
-.icon{
-
-    display: flex;
-    align-items: center;
-}
-
-.foot-contact{
+.icon {
 
     display: flex;
     align-items: center;
 }
 
+.foot-contact {
+
+    display: flex;
+    align-items: center;
+}
