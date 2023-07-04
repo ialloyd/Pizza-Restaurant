@@ -38,7 +38,7 @@ main {
     background-image: url("pizza1 1.jpg");
     background-size: cover;
     height: 700px;
-    filter: brightness(0.7);
+    filter: brightness(0.8);
 
 
 }
@@ -48,6 +48,7 @@ main .container {
     padding-top: 100px;
     width: 75%;
     margin-left: 80px;
+    
 }
 
 main .container p {
@@ -56,7 +57,7 @@ main .container p {
     width: 50%;
     font-size: large;
     color: white;
-    box-sizing: border-box;
+   
 
 }
 
@@ -86,7 +87,85 @@ main .container h1 {
 }
 
 #menu h4 {
-
+    margin-top: 5px;
     color: #F2C94C;
 
 }
+
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:5px;
+}
+
+.image-gallery{
+
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.item{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:10px;
+
+}
+.address{
+
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.contact{
+
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.address img{
+
+    width:50%;
+}
+.contact img{
+
+    width:50%;
+}
+
+.foot .container{
+
+    display: flex;
+    justify-content:space-between;
+}
+
+.foot img{
+
+    width:50%;
+}
+
+.icon img{
+
+    width:50%;
+}
+
+.foot-contact img{
+
+    width:50%;
+}
+
+.icon{
+
+    display: flex;
+    align-items: center;
+}
+
+.foot-contact{
+
+    display: flex;
+    align-items: center;
+}
+
